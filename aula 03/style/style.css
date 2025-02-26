@@ -1,0 +1,16 @@
+.titulo {
+  display: flex;
+}
+
+.titulo > h1 {
+  margin: auto
+}
+
+.imagem {
+  width: 500px;
+}
+
+.descricaoImg {
+  font-style: italic;
+}
+

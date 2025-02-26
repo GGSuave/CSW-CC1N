@@ -1,0 +1,80 @@
+ Aula sobre imagem (25/02/2025):
+
+ Formatos de Imagem {
+        JPEG: [(Joint Photographic Expert Group)
+
+        Vantagem: Opção popular para imagens fotográficas, suporta uma ampla gama de cores. 
+        Permite uma alta taxa de compressão sem perda de qualidade.
+        Bom para reduxir tamanho de arquivos.
+        
+        Desvantagem:
+        Não é bom para trânsparencia
+        ]
+
+        PNG: [
+            (Portable Network Graphics)
+
+        Vantagens: 
+            O formato PNG é uma opção para imagens que precisam ser transparentes.
+            Suporta camadas.
+            Aceita uma certa compreesão
+
+        Desvantagem:
+            É mais pesado que um arquivo JPEG
+        ]
+
+        GIF: [
+            (Grapgics Interchange Format)
+
+        Vantagem:
+            É um formato de gráfico que aceita manipulação. Podendo ter animações
+
+        Desvantagens:
+            Não é qualquer um consegue manipular
+        É mais pesado
+        ]
+ }
+
+ Icone Favorito {
+    O Icone favorivel é um icone, que aparece na aba do navegador, que representa qual é o seu site.
+    Essa imagem pode ser de tamanho 16x16 ou 32x32
+    
+    ex: 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    href é a localização do arquivo
+ }
+
+ sobre o <img> {
+    a tag <img> tem seus atributos para o funcionamento:
+    src="" indica o diretorio (caminho) que a imagem está localizada.
+    alt="" é uma mensagem que indica oque é aquela imagem, podendo ter duas funções: 
+        1. Acesibilidade: Quando o usuário faz a utilização de acessibilidade, ele lê o que está escrito para o usuário.
+        2. Se a imagem não for carregada, o texto aparece no lugar da imagem.
+ }
+
+ figure e figurecaption{
+    o figurecaption é a descrição da imagem, sendo um rodapé.
+
+    <figure>
+        <img src="caminho" />
+        <figurecaption>Imagem teste</figurecaption>
+    </figure>
+ }
+
+ trocar imagem apartir do tamanho da imagem{
+    o bloco picture permite a disponibilização do 
+    <souce media=(max-width: tamanho)> 
+        <srcset="caminho"></srcset>
+    </souce> 
+
+    que, apartir do tamanho da tela do usuário, troca a imagem:
+
+    Expert
+
+    <picture>
+        <souce media=(max-width: 760px)> // ou min-width
+            <srcset="caminho"></srcset>
+        </souce> 
+    </picture>
+    }

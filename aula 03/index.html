@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./style/style.css" />
+		<link
+			rel="shortcut icon"
+			href="./icon/favicon-16x16.png"
+			type="image/x-icon"
+		/>
+		<title>Aula 03</title>
+	</head>
+	<body>
+		<div>
+			<div>
+				<div class="titulo">
+					<h1>Desafio das Imagens</h1>
+				</div>
+
+				<hr />
+				<!-- Cria um traço -->
+			</div>
+			<br />
+			<!-- Queria usar margin. porem, segui oque foi ensinado na aula-->
+			<div class="conteudo">
+				<h2>Fotos da cidade de Marechal Floriano</h2>
+
+				<figure>
+					<img
+						src="./img/fotoMarechal.jpg"
+						alt="Foto áerea de Marechal Floriano"
+						class="imagem"
+					/>
+					<figcaption class="descricaoImg">
+						Foto tirada por: Guilherme Suave
+					</figcaption>
+				</figure>
+
+				<h3>Imagem reativa</h3>
+				<br />
+				<picture>
+					<source
+						media="(max-width: 760px)"
+						srcset="
+							img/fotoMarechalPequena.jpg
+						"
+					/>
+					<source
+						media="(min-width: 767px)"
+						srcset="
+							img/fotoMarechalGrande.jpg
+						"
+					/>
+					<img
+						src="img/fotoMarechalPequena.jpg"
+						alt="Imagem de marechal"
+					/>
+				</picture>
+			</div>
+		</div>
+	</body>
+</html>

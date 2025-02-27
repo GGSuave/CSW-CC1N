@@ -1,0 +1,27 @@
+.corpo {
+  margin: 0 20px 0 20px;
+}
+
+.cabecalho-titulo {
+  display: flex;
+}
+
+.titulo  {
+  margin: auto
+}
+
+.conteudo {
+  margin-top: 10px;
+}
+.imagem {
+  width: 600px;
+}
+
+.bloco-imagem {
+  margin-left: 20px;
+}
+
+.descricaoImg {
+  font-style: italic;
+}
+

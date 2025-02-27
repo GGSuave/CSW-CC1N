@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./style/style.css" />
+		<link
+			rel="shortcut icon"
+			href="./icon/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+		<title>Aula 04</title>
+	</head>
+	<body>
+		<div>
+			<div class="corpo">
+				<div>
+					<div class="cabecalho-titulo">
+						<h1 class="titulo">
+							Desafio da Imagem
+						</h1>
+					</div>
+
+					<hr />
+				</div>
+
+				<div class="conteudo">
+					<h2>Fotos da cidade de Marechal</h2>
+
+					<figure class="bloco-imagem">
+						<img
+							src="./img/fotoMarechal.jpg"
+							alt="Foto áerea de Marechal Floriano"
+							class="imagem"
+						/>
+						<figcaption class="descricaoImg">
+							Foto tirada por: Guilherme
+							Suave; Utilizando um drone
+							DJI 2 Mini.
+						</figcaption>
+					</figure>
+
+					<h3>Imagem reativa</h3>
+					<br />
+					<picture class="bloco-imagem">
+						<source
+							media="(max-width: 760px)"
+							srcset="
+								img/fotoMarechalPequena.jpg
+							"
+						/>
+						<source
+							media="(min-width: 767px)"
+							srcset="
+								img/fotoMarechalGrande.jpg
+							"
+						/>
+						<img
+							src="img/fotoMarechalPequena.jpg"
+							alt="Imagem de marechal"
+							class="imagem"
+						/>
+					</picture>
+				</div>
+
+				<hr />
+
+				<div class="conteudo">
+					<div>
+						<div class="cabecalho-titulo">
+							<h1 class="titulo">
+								Desafio das Mensagens
+							</h1>
+						</div>
+
+						<hr />
+					</div>
+
+					<div>
+						<h2>&rarr; Primeiro Parágrafo</h2>
+						<h3>
+							&rarr; &rarr; Segundo
+							Parágrafo
+						</h3>
+						<h4>
+							&rarr; &rarr; &rarr;
+							Terceiro Parágrafo
+						</h4>
+					</div>
+					<br />
+					<div>
+						<h4>
+							&rarr; &rarr; &rarr;
+							Terceiro Parágrafo
+						</h4>
+						<h3>
+							&rarr; &rarr; Segundo
+							Parágrafo
+						</h3>
+
+						<h2>&rarr; Primeiro Parágrafo</h2>
+					</div>
+					<br />
+					<div>
+						<h2>Desafio dos Filmes!</h2>
+						<p>Adivinhe qual é o filme!</p>
+						<p>&#x1F30E;&#x1F412;&#x&#x&#x</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

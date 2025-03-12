@@ -1,0 +1,15 @@
+Semântica vs Forma 
+       
+ Na atualização do HTML 4 para o HTML 5, ocorreu uma mudança. 
+ As tags, agora, são semânticas. Onde as tags sofreram mudanças, e essas mudanças mais semânticas são mais aceitas, e beneficiadas, pelos buscadores!
+            
+ ex:
+
+ Forma:
+  Guilherme, nasceu em <u>Vitória - Es</u> <!-- Adiciona uma linha no texto (menos uso) -->
+
+ Semântica
+  Guilherme, nasceu em <address>Vitória - Es</address> <!-- Alem de deixar mais semântico. quando aberto em outros dispositivos, como o mobile, o address vai ter comportamentos diferetes. (Mais usado e melhor)-->
+
+  obs: trecho de cod tag <pre></pre> <code></code>
+

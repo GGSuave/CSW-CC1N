@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Aula 05 | Hierarquia de Titulo</title>
+	</head>
+	<body>
+		<!-- Aula sobre hierarquia de título de conteúdo  -->
+
+		<h1>4. Ferramentas TI Utilizadas na Biblioteca Ana Bove</h1>
+		<h2>
+			4.1 Sobre a Biblioteca Ana Bove e sua instituição mantenedora
+		</h2>
+		<h3>4.1.1 O Imip</h3>
+		<h3>4.1.3 A Biblioteca Ana Bove</h3>
+
+		<!-- Forma vs Semantica -->
+
+		<div>
+			<hr />
+			<h1>Principais formações</h1>
+
+			<h2>Negito / Destaque</h2>
+			<p>
+				Na frase temos uma
+				<b>parte do texto em negrito</b> usando a tag B (não
+				semântica)
+			</p>
+			<p>
+				Na frase temos uma
+				<strong>parte do texto em negrito</strong> usando a tag
+				Strong (semântica)
+			</p>
+
+			<h2>Itálico / Ênfase</h2>
+			<p>
+				Nesta frase vamos entrar em uma palavra em
+				<i>itálico</i> usando a tag i (não semântica)
+			</p>
+			<p>
+				Nesta frase vamos entrar em uma palavra em
+				<em>itálico</em> usando a tag em (semântica)
+			</p>
+
+			<h2>Texto Marcador</h2>
+
+			<p>
+				Aqui vamos usar um texto com destaque de
+				<mark>marca texto</mark>
+			</p>
+
+			<p>
+				Aqui vamos usar um texto com destaque de
+				<mark style="background-color: green">marca texto</mark>
+			</p>
+
+			<h2>Texto Grande e Pequeno</h2>
+
+			<p>
+				Estamos trabalhando aqui com
+				<big>texto grande</big> e um
+				<small>texto pequeno</small> nessa frase
+			</p>
+
+			<h2>Texto deletado</h2>
+
+			<p>
+				Neste paragrafo vamos trabalhar com um texto
+				<del>que foi excluído</del>
+			</p>
+
+			<h2>Texto inserido</h2>
+
+			<p>
+				Nesta frase vamos demostrar como destacar um
+				<u>texto inserido na frase</u> de forma não semântica
+			</p>
+			<p>
+				Nesta frase vamos demostrar como destacar um
+				<ins>texto inserido na frase</ins> de forma não
+				semântica
+			</p>
+
+			<h2>Texto Sobrescrito</h2>
+			<p>
+				Demonstração de como se uma forma de equação de segundo
+				grau ax<sup>2</sup> + bx + c
+			</p>
+
+			<h2>Texto Subescrito</h2>
+
+			<p>Demosntração em uma formula H<sub>2</sub>O</p>
+
+			<h2>Código Fonte</h2>
+
+			<p>Exemplo de como usar código fonte via HTML</p>
+
+			<pre>
+				<code>
+					import javax.swing.*;
+					import java.awt.*;
+
+					public class RemoveOutlineExample {
+						public static void main(String[] args) {
+							SwingUtilities.invokeLater(() -> {
+									JFrame frame = new JFrame("Remover Outline");
+									frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+									frame.setSize(300, 200);
+									frame.setLayout(new FlowLayout());
+
+									JButton button = new JButton("Clique Aqui");
+									button.setFocusPainted(false);  // Remove o outline ao focar
+									button.setBorderPainted(false); // Remove a borda padrão
+									button.setContentAreaFilled(false); // Remove fundo padrão
+
+									frame.add(button);
+									frame.setVisible(true);
+							});
+						}
+					}
+
+				</code>
+			</pre>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,69 @@
+Lista {
+   Quando precisamos fazer uma lista que possui uma ordem, numérica ou sequêncial
+
+   Lista Ordenada {
+      Lista de atividades diaria
+      1- Acordar
+      2- Malhar
+      3- Café
+      4- Trabalhar
+      5- Dormi
+
+      A lista ordenada é uma lista feita com uma tag, que é numerada automaticamente
+
+      Tag ol {
+         A tag <ol> faz uma lista ordenada, recebendo alguns atributos
+
+         type="" {
+            O type fala ao ol como ele vai funcionar.
+               A: fala que deve usar algarismos maiúsculos
+               a: fala que deve usar algarismos minúsculos
+               1: decimal
+               I: fala que deve usar algarismo romanos maiúsculos
+               i: fala que deve usar algarismo romanos minúsculos
+         }
+
+         start="" {
+            fala qual é o elemento inicial.
+
+            ex: {
+               start 4 com o type A, ele vai começar apartir do D.
+            }
+         }
+      }
+
+      Lista Não ordenada, tag ul {
+          A tag <ul> faz uma lista não ordenada, recebendo um atributos
+
+          type {
+            disk: representa com um disco a lista
+            cicle: um circulo vazio por dentro
+            square: um quadrado
+            none: não tem nada antes
+
+            se nenhum type for colocado, ele fica com um circulo preenchido
+          }
+
+          o li pode ser utilizado aqui tbm
+      }
+
+      linhas {
+        linha da lista {
+            a tag <li> entra dentro da tag ol. Ela representa um linha da lista
+            
+            ex {
+               <li>Linha teste</li>
+            }
+
+            pode ser usada na ul e ol
+         } 
+
+         Lista Definição {
+            Quando preciso fazer um dicionario, lista com sigla e descrição <dl>(Definition Term) e o <dd> (Descrition)
+
+            <dl>HTML</dl>
+            <dd>HyperText Markup Language</dd>
+         }
+      }
+   }
+}

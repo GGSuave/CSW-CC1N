@@ -31,23 +31,24 @@ Lista {
             }
          }
       }
+   }
 
-      Lista Não ordenada, tag ul {
-          A tag <ul> faz uma lista não ordenada, recebendo um atributos
-
+   Lista Não ordenada, tag ul {
+       A tag <ul> faz uma lista não ordenada, recebendo um atributos
           type {
-            disk: representa com um disco a lista
-            cicle: um circulo vazio por dentro
-            square: um quadrado
-            none: não tem nada antes
+           disk: representa com um disco a lista
+           cicle: um circulo vazio por dentro
+           square: um quadrado
+           none: não tem nada antes
 
-            se nenhum type for colocado, ele fica com um circulo preenchido
-          }
+           se nenhum type for colocado, ele fica com um circulo preenchido
+         }
 
-          o li pode ser utilizado aqui tbm
+         o li pode ser utilizado aqui tbm
       }
+   }
 
-      linhas {
+   Linhas {
         linha da lista {
             a tag <li> entra dentro da tag ol. Ela representa um linha da lista
             
@@ -65,5 +66,3 @@ Lista {
             <dd>HyperText Markup Language</dd>
          }
       }
-   }
-}

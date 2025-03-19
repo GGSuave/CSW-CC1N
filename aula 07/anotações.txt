@@ -1,0 +1,27 @@
+Tabelas: {
+   Antigamente, nas antigas versões do HTML, as tabelas eram utilizadas amplamentes na contruções dos sites.
+   
+   As tabelas simples são o tipo mais comum de tabela HTML e consistem em uma grade retangular formada por linhas e colunas, em que cada célula pode conter texto, imagens ou outros elementos HTML.
+
+   tags: {
+      table: {
+         A tag <table></table> cria uma tabela no html
+      }
+
+      thead: {
+         a tag <thead></thead> cria um cabeçalho na tabela
+      }
+
+      tbody: {
+         a tag <tbody></tbody> cria o corpo da tabela
+      }
+
+      tfoot: {
+         cria o rodapé da tabela. <tfoot></tfoot>
+      }
+
+      Tabela - Mesclagem de Linhas e Colunas: {
+         A mesclagem de linhas e colunas em tabelas HTML é uma técnica que permite combinar várias células em uma única célula, tanto na horizontal quanto na vertical. Isso é feito com os atributos rowspan (vertical) e colspan (horizontal) dos elementos <th> e <td>
+      }
+   }
+}

@@ -1,0 +1,20 @@
+Aula 08 - Links: {
+   Os links, inicialmente, foram desenvolvidos para poder abrir os arquivos de um computador sem a necessidade de se abrir os arquivos por comando.
+   Atualmente, o link, a tag ancora, é usada para anexar páginas de um mesmo site ou de sites externos.
+
+   tag de link{
+      link externo: {
+         A tag <a> com o atributo href é utilizado para anexar links externos na página
+
+         <a href="youtube.com"></a>
+
+        target: {
+         O target é utilizado para colocar alguns atributos no a
+
+         ex:
+
+         (pegar nos slids)
+        }
+      }
+   }
+}

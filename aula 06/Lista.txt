@@ -37,7 +37,7 @@ Lista {
        A tag <ul> faz uma lista não ordenada, recebendo um atributos
           type {
            disk: representa com um disco a lista
-           cicle: um circulo vazio por dentro
+           circle: um circulo vazio por dentro
            square: um quadrado
            none: não tem nada antes
 

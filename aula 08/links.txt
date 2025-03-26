@@ -11,10 +11,65 @@ Aula 08 - Links: {
         target: {
          O target é utilizado para colocar alguns atributos no a
 
-         ex:
+         _blank {
+            abre uma nova janela no navegador.
+         }
 
-         (pegar nos slids)
+         _self{
+            abre o link na mesma tela (padrão)
+         }
+
+         _top {
+            vai abrir uma nova janela do navegador, e não abrir uma nova aba
+         }
+
+         _parent{
+            similar ao _top em uma referência à janela mãe
+         }
         }
+
+        rel{
+         rel="external"
+         diz que o link é externo
+        }
+
+        hreflang {
+         atributo que indica o idioma do link
+        }
+      }
+
+      link interno: {
+         A base da tag é a mesma, mas pode receber outros atributos
+
+         rel{
+            rel="next" diz ao navegador que é uma outra tela do mesmo site
+         }
+      }
+
+      links patrocinados: {
+         Quando algum link vem de algum patrocino recebe outros atributos
+
+         rel: {
+            rel="nofollow"
+         }
+
+         recomendado usar o target="_blank"
+      }
+
+      links para donwload: {
+         para usar uma tag a para realizar donwload. recebendo alguns atributos novos
+
+         download: {
+            donwload=""
+
+            recebe um nome recomendado do arquivo para instalar localmente na máquina.
+         }
+
+         type: {
+            define o tipo do arquivo
+
+            type="application/pdf" exemplo para pdf
+         }
       }
    }
 }

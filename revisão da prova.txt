@@ -1,0 +1,106 @@
+oq estudar: {
+   Anos 1960: {
+      criação da arpanet, dentro da darpa. Onde começou a internet.
+
+      primeira rede da arpanet tiveram 4 computadores conectados. tendo em 1969 o primeiro email e a primeira queda
+      de rede. NCP é o primeiro protocolo, que tinha um grande problema: Se um computador estivesse enviando algo 
+      para um outro, os demais computadores tinham que esperar o primeiro computador terminar de enviar os dados 
+      para poder enviar algo.
+   }
+
+   Anos 1970: {
+      Nova Arpanet era de uso exclusivo da universidades. e uma rede exclusiva de uso militar
+
+      em 1974, o protocolo TCP teve seu começo de desenvolvimento. entrando no ar em 1º de janeiro de 1983, com uma
+      mudança de nome para 'Internetworking', que depois se veio a se chamar internet.
+   }
+
+   Anos 90: {
+      Criação do HTML, o World Wide Web e o protocolo HTTP.
+
+      Mosaic foi o primeiro navegador.
+
+      A Netscape criou o protocolo HTTPS, possibilitando o envio de dados criptografados para a transações
+      criptografados.
+   }
+
+   Como os computadores funcionam?: {
+      Os computadores trabalham com pulsos eletricos: {
+         tem pulso? 1
+         sem pulso? 0
+      }
+
+      Esses sinais sãos chamados de bits. Um conjunto de 8 bits são um Byte.
+      Um Byte pode ter 256 variações de bits diferentes (2^8)
+
+      Cada caracter, dentro da tabela ASCII, tem um valor para seu entendimento no binario.
+
+      A = 65.
+      B = 66.
+   }
+
+   Como Descobrir um valor numerico decimal em binario?: {
+      pegue o valor, e vá dividindo por 2: {
+         14 | 2
+            0   7 | 2
+                1   3 | 2
+                     1  1 | 2
+                        1 
+         pega o resto, e coloca ele da direita pra esquerda.
+         1110
+      }
+
+   E o valor inverso?: {
+      1110
+
+      1 1 1 0 = 2^3 + 2^2 + 2^1 + 2^0 = 14
+      começa da direita para esquerda. cada numero equivale a um 2 elevado a algo. Começa em 0.
+   }
+
+   Modem: {
+      Pega o sinal analogico, que vem da linha telefonica, e faz a conversão desse sinal para o digital.
+   }
+
+   dominio e hospedagem: {
+      dominio = link
+      
+      hospedagem: {
+         É o servidor, máquina com porta aberta, que fica o site. O servidor possui o IP, que é possivel ser
+         inculado a um dominio.
+      }
+
+      dns: {
+         Recebe o dominio, verifica qual é o IP do servidor, pega o site e devolve.
+      }
+   }
+
+   Site estatico: {
+      Apresenta a mesma coisa para todos os usuários.
+   }
+
+   Site Dinamico: {
+      Apresenta conteudos diferentes em tempo de execução.
+   }
+
+   HTML = Conteúdo
+   Css = Estilo
+   JS = Interatividade
+
+   W3C = gerencia as tags html.
+
+   Semantica e forma: {
+      O buscador dá preferencia para as páginas com melhor semantica no código.
+      Forma é do jeito errado, sendo algo que muda o visual mas n da o sentido.
+      Semantica é o jeito correto, que pode variar de dispositivo para dispositivo.
+   }
+
+   Lista definida: {
+      dt é o termo e dd é o dicionario
+      <dl>
+         <dt>HTML</dt>
+         <dd>Hype e etc</dd>
+      </dl>
+   }
+
+   Estude tabela: boa sorte
+}

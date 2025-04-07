@@ -1,0 +1,57 @@
+audio: {
+   tag <audio> : {
+      preload: {
+         dis se a o áudio vai ser carregado ao entrar na tela.
+         <audio preload="metadata">
+
+         metadata: {
+            trás apenas as informações do áudio ao carregar a tela
+         }
+
+         auto (padrão): {
+            carrega o áudio ao entrar na tela
+         }
+
+         none: {
+            não carrega o áudio
+         }
+      }
+
+      controls: {
+         se não for passado, os controles do áudio estarão escondidos
+      }
+
+      autoplay: {
+         inicia o áudio quando a página for carregada
+      }
+
+      loop: {
+         faz que o áudio sejá repetido infinitamente
+      }
+   }
+}
+
+video: {
+   tag <video>: {
+      width: {
+         recebe o tamanho do video
+      }
+
+      controls: {
+         se não for passado, os controles do vídeo estarão escondidos
+      }
+
+      autoplay: {
+         inicia o áudio quando a página for carregada
+      }
+   }
+
+   Os vídeos são tipos de arquivos muito pesados para serem armazenados no servidor, acabando sendo caro e custoso.
+   Como resolver isso? {
+      É possivel anexar vídeos de páginas especificas para vídeos, como o youtube ou o viemo. esses sites compartilham códigos de incorporar um código com o vídeo
+
+      ex: {
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/L9QxNToS0ck?si=izPGw_a6W8wPCf5u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      }
+   }
+}

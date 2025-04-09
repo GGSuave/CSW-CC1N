@@ -1,0 +1,4 @@
+cores: {
+   Cores são extremamente importantes na criação de um site. Elas variam desde a quantidade de tempo que o
+   usuário vai passar em um página, até influencia de compra no site.
+}

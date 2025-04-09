@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+.corpo {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(
+		90deg,
+		rgb(9, 107, 168),
+		rgb(2, 137, 167)
+	);
+	justify-content: center;
+	align-items: center;
+}
+
+.caixa {
+	width: 40%;
+	padding: 20px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 12px 12px 20px rgb(63, 63, 63);
+}
+
+.titulo-principal {
+	text-align: center;
+	color: rgb(21, 21, 250);
+	text-shadow: 10px 5px 45px black;
+	margin-bottom: 40px;
+}
+
+.titulo-capitulo {
+	color: rgb(55, 55, 252);
+}
+
+p {
+	text-align: justify;
+}

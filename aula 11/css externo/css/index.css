@@ -1,0 +1,31 @@
+section > :first-child {
+	display: flex;
+	width: 100%;
+	height: 40px;
+	background-color: orange;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	color: red;
+}
+p {
+	color: blue;
+}
+a {
+	text-decoration: none;
+}
+
+.redimencionar {
+	display: flex;
+	margin-top: 20px;
+}
+
+.redimencionar > div {
+	width: 50%;
+}

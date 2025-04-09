@@ -1,0 +1,88 @@
+Css: {
+   O Css é o que da estilo a parte semântica do html/xml.
+
+   Css in line{
+      pontos positivos: {
+         Altera pontualmente uma área
+         Fácil de acesso
+         Possui a maior hierarquia do Css
+      }
+
+      pontos negativos: {
+         Maior indice de retrabalho
+         Deixa o Código HTML muito poluido
+         Deixa o Css muito espalhado pelo código HTML. Dificultando a manutenção
+         Faz com que repita muitas vezes o mesmo código
+      }
+
+      ex: {
+         <h1 style="color: blue;"></h1>
+      }
+   }
+
+   Css Internal Style: {
+      Um pouco mais avançada que agrupa o Css no início da tag. Define para a página toda.
+
+      Pontos positivos: {
+         Agrupar todo o Css
+         Facilita a manutenção
+         Configura o estilo para a pag toda
+         Evita repetição
+      }
+
+      Pontos Negativos: {
+         É o segundo na hierarquia
+         Alto índice de retrabalho
+         Deixa o código maior
+         Não é aplicado em todas as telas
+      }
+
+      ex: {
+         <style>
+            h1 {
+               font-size: 2em;
+            }
+         </style>
+      }
+   }
+
+   Css Externo: {
+      Agrupa todo o código Css em um arquivo externo '.css'.
+
+      Pontos Positivos: {
+         Organiza o código
+         Facilita a manutenção
+         Configura o estilo de uma tag em todas as páginas. (desde que faça referencia ao arquivo)
+         Evita repetição
+         Permite o reuso
+      }
+
+      Ponto Negativo: {
+         É o último na hierarquia.
+      }
+   }
+
+   Hierarquia: {
+      1. Css in line
+      2. Css Internal Style
+      3. Css Externo
+
+      O mais alto é o que manda se for usada.
+   }
+
+   Quando utilizar cada um?: {
+
+      Css In Line: {
+         Apenas para modificações únicas e pontuais, utilizados em apenas um lugar.
+      }
+
+      Css Internal Style: {
+         Criação de página isoladas. Ou sejá, precisa ser diferente de todas as outras.
+      }
+
+      Css Externo: {
+         Melhor opção sempre!
+      }
+   }
+
+}

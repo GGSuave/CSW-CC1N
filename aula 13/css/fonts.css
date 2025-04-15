@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@font-face {
+	font-family: "Sedan";
+	src: local("Sedan"),
+		url("../fonts/Sedan/Sedan-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Lora";
+	src: local("Lora"),
+		url("../fonts/Lora/static/Lora-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "top-secret";
+	src: local("top_secret_kc"),
+		url("../fonts/top_secret_kb/Top\ Secret.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "llcooper";
+	src: local("top_secret_kc"),
+		url("../fonts/llcooper/LLCOOPER.TTF") format("truetype");
+}
+
+@font-face {
+	font-family: "gimme-danger";
+	src: local("gimme_danger"),
+		url("../fonts/gimme_danger/Gimme\ Danger.ttf") format("truetype");
+}
+
+.font-sedan {
+	font-family: "Sedan";
+}
+
+.font-lora {
+	font-family: "Lora";
+}
+
+.font-opens-sans {
+	font-family: "Open Sans";
+}
+
+.font-top-secret {
+	font-family: "top-secret";
+}
+
+.font-llcooper {
+	font-family: "llcooper";
+}
+
+.font-gimme-danger {
+	font-family: "gimme-danger";
+}

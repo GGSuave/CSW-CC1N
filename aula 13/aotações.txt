@@ -1,0 +1,22 @@
+tipografia: {
+   Forma de escrita. Basicamente é o estudo e criação dos caracteres.
+
+   A tipografia é essencial na criação de um site, pois influencia diretamente a legibilidade, a estética e a
+   experiência do usuário. Escolher fontes adequadas e combinar estilos tipográficos de forma harmoniosa pode
+   transmitir a identidade da marca e atrair a atenção do público-alvo.
+
+   Serifa: {
+      Pequenos traços ou prolongamentos no final das hastes das letras. As fontes com serifa são frequentemente usadas em textos impressos, pois ajudam na leitura contínua, enquanto as fontes sem
+      serifa são mais comuns em ambientes digitais devido à sua aparência limpa e moderna.
+   }
+
+   Monoespaçada: {
+      Fontes em que todos os caracteres têm a mesma largura. São amplamente utilizadas em programação e em
+      situações onde o alinhamento uniforme é necessário, como tabelas e códigos de barras.
+   }
+
+   Glifo: {
+      Representação gráfica de um caractere ou símbolo. Um glifo pode variar dependendo da fonte ou estilo
+      tipográfico, mas ainda representa o mesmo caractere subjacente.
+   }
+}

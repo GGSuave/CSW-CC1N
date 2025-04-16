@@ -25,6 +25,7 @@
 
 @font-face {
 	font-family: "gimme-danger";
+	font-weight: 100;
 	src: local("gimme_danger"),
 		url("../fonts/gimme_danger/Gimme\ Danger.ttf") format("truetype");
 }

@@ -4,7 +4,7 @@
 	margin: 0;
 }
 
-body {
+main {
 	display: flex;
 	display: flex;
 	width: 100%;
@@ -13,6 +13,7 @@ body {
 	background: url("../img/background.jpg") no-repeat fixed;
 	background-size: cover;
 	flex-direction: column;
+	padding: 30px 0 0 0;
 }
 
 .caixa {
@@ -20,7 +21,7 @@ body {
 	background: radial-gradient(circle, white, gray);
 	color: white;
 	text-align: center;
-	margin-top: 40px;
+	margin-bottom: 40px;
 	color: black;
 	border-radius: 10px;
 }
@@ -33,4 +34,8 @@ body {
 }
 .paragrafo {
 	margin-bottom: 25px;
+}
+
+.font-18px {
+	font-size: 18px;
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Aula 14</title>
+		<style>
+			h1 {
+				display: inline-block;
+				width: 250px;
+				height: 50px;
+				background-color: lightgray;
+				padding: 20px;
+				margin: 50px;
+			}
+
+			h1::after {
+				content: "*";
+				color: red;
+			}
+
+			.exemplo-1 {
+				border: 10px solid red;
+				outline: 10px solid blue;
+			}
+
+			#exemplo-2 {
+				border: 10px solid blue;
+				outline: 10px solid red;
+			}
+
+			div {
+				background-color: green;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+
+			#inteira {
+				display: block;
+			}
+
+			.dividida {
+				width: 300px;
+				height: 400px;
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="exemplo-1">Exemplo de Caixa</h1>
+		<h1 id="exemplo-2">Exemplo de Caixa</h1>
+		<h1 class="exemplo-1">Exemplo de Caixa</h1>
+		<div id="inteira">Div interira</div>
+		<div class="dividida">div 1</div>
+		<div class="dividida">div 2</div>
+	</body>
+</html>

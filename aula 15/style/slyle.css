@@ -1,0 +1,54 @@
+.padrao1 {
+	background-color: #f0f0f0;
+	border: 1px solid #000;
+	padding: 10px;
+	margin: 5px;
+	transition: all 0.5s;
+}
+
+.padrao1:hover {
+	background-color: yellow;
+}
+
+#id {
+	display: inline-block;
+}
+
+.paragrafo {
+	text-align: center;
+}
+
+.div-inline {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+}
+
+.div2:hover::after {
+	content: "O Mouse está em cima";
+}
+
+.link {
+	color: red;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.link:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+.link:visited {
+	color: darkred;
+}
+
+.paragrafo-link::before {
+	content: ">>";
+}
+
+.paragrafo-link::after {
+	content: " [Link]";
+	color: gray;
+	font-size: 15px;
+}

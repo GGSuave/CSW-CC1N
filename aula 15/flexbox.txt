@@ -14,144 +14,142 @@ flexbox {
 
 	Propriedades {
 		flex-direction {
-  Define a direção dos itens no contêiner flexível.
+  			Define a direção dos itens no contêiner flexível.
 
-  Valores:
-  - row (padrão)
-  - row-reverse
-  - column
-  - column-reverse
+			Valores:
+			- row (padrão)
+			- row-reverse
+			- column
+			- column-reverse
 
-  Exemplo:
-  display: flex;
-  flex-direction: column;
-}
+			Exemplo:
+			display: flex;
+			flex-direction: column;
+		}
 
-justify-content {
-  Alinha os itens no eixo principal.
+		justify-content {
+			Alinha os itens no eixo principal.
 
-  Valores:
-  - flex-start
-  - flex-end
-  - center
-  - space-between
-  - space-around
-  - space-evenly
+			Valores:
+			- flex-start
+			- flex-end
+			- center
+			- space-between
+			- space-around
+			- space-evenly
 
-  Exemplo:
-  display: flex;
-  justify-content: space-between;
-}
+			Exemplo:
+			display: flex;
+			justify-content: space-between;
+		}
 
-align-items {
-  Alinha os itens no eixo cruzado (perpendicular ao principal).
+		align-items {
+			Alinha os itens no eixo cruzado (perpendicular ao principal).
 
-  Valores:
-  - stretch (padrão)
-  - flex-start
-  - flex-end
-  - center
-  - baseline
+			Valores:
+			- stretch (padrão)
+			- flex-start
+			- flex-end
+			- center
+			- baseline
 
-  Exemplo:
-  display: flex;
-  align-items: center;
-}
+			Exemplo:
+			display: flex;
+			align-items: center;
+			}
 
-align-self {
-  Alinha um item específico individualmente.
+			align-self {
+			Alinha um item específico individualmente.
 
-  Valores: mesmos do align-items.
+			Valores: mesmos do align-items.
 
-  Exemplo:
-  align-self: flex-end;
-}
+			Exemplo:
+			align-self: flex-end;
+		}
 
-flex-wrap {
-  Controla se os itens devem quebrar linha.
+		flex-wrap {
+			Controla se os itens devem quebrar linha.
 
-  Valores:
-  - nowrap (padrão)
-  - wrap
-  - wrap-reverse
+			Valores:
+			- nowrap (padrão)
+			- wrap
+			- wrap-reverse
 
-  Exemplo:
-  display: flex;
-  flex-wrap: wrap;
-}
+			Exemplo:
+			display: flex;
+			flex-wrap: wrap;
+		}
 
-gap {
-  Define o espaço entre os itens.
+		gap {
+			Define o espaço entre os itens.
 
-  Exemplo:
-  display: flex;
-  gap: 10px;
-}
+			Exemplo:
+			display: flex;
+			gap: 10px;
+		}
 
-order {
-  Muda a ordem dos itens.
+		order {
+			Muda a ordem dos itens.
 
-  Exemplo:
-  .item {
-    order: 2;
-  }
+			Exemplo:
+			.item {
+				order: 2;
+			}
 
-  Itens com menor valor aparecem primeiro.
-}
+			Itens com menor valor aparecem primeiro.
+		}
 
-flex-grow {
-  Permite que o item cresça se houver espaço.
+		flex-grow {
+			Permite que o item cresça se houver espaço.
 
-  Exemplo:
-  .item {
-    flex-grow: 1;
-  }
+			Exemplo:
+			.item {
+				flex-grow: 1;
+			}
 
-  Cresce proporcionalmente aos outros itens com grow.
-}
+			Cresce proporcionalmente aos outros itens com grow.
+		}
 
-flex-shrink {
-  Permite que o item encolha se necessário.
+		flex-shrink {
+			Permite que o item encolha se necessário.
 
-  Exemplo:
-  .item {
-    flex-shrink: 0;
-  }
+			Exemplo:
+			.item {
+				flex-shrink: 0;
+			}
 
-  Com shrink 0, o item não encolhe.
-}
+			Com shrink 0, o item não encolhe.
+		}
 
-flex-basis {
-  Define o tamanho inicial do item.
+		flex-basis {
+			Define o tamanho inicial do item.
 
-  Exemplo:
-  .item {
-    flex-basis: 200px;
-  }
+			Exemplo:
+			.item {
+				flex-basis: 200px;
+			}
 
-  Tamanho base de 200px.
-}
+			Tamanho base de 200px.
+		}
 
-flex {
-  Abreviação de grow, shrink e basis.
+		flex {
+			Abreviação de grow, shrink e basis.
 
-  Exemplo:
-  .item {
-    flex: 1 0 100px;
-  }
+			Exemplo:
+			.item {
+				flex: 1 0 100px;
+			}
 
-  Cresce, não encolhe, começa com 100px.
-}
+			Cresce, não encolhe, começa com 100px.
+		}
 
-align-content {
-  Alinha múltiplas linhas de itens.
+		align-content {
+			Alinha múltiplas linhas de itens.
 
-  Exemplo:
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-}
-
+			Exemplo:
+			display: flex;
+			flex-wrap: wrap;
+			align-content: space-around;
+		}
 	}
-	
 }

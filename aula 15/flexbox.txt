@@ -1,0 +1,157 @@
+flexbox {
+	O Flexbox (ou Flexible Box Layout) é um modelo de layout do CSS projetado para organizar elementos em uma
+	página de forma eficiente, especialmente quando se trata de alinhar, distribuir e redimensionar itens
+	dentro de um contêiner, mesmo que o tamanho dos itens seja dinâmico ou desconhecido.
+
+	Ele funciona com dois componentes principais:
+
+	Contêiner flexível (flex container): O elemento pai que define o contexto flexível.
+	Itens flexíveis (flex items): Os elementos filhos dentro do contêiner que serão organizados.	
+
+	Contêiner {
+		Quando um Contêiner recebe a propriedade CSS display: flex;, automaticamente os filhos (elementos desse contêiner, que geralmente é uma div) sofrem uma auteração e se tornam itens flexíveis.
+	}
+
+	Propriedades {
+		flex-direction {
+  Define a direção dos itens no contêiner flexível.
+
+  Valores:
+  - row (padrão)
+  - row-reverse
+  - column
+  - column-reverse
+
+  Exemplo:
+  display: flex;
+  flex-direction: column;
+}
+
+justify-content {
+  Alinha os itens no eixo principal.
+
+  Valores:
+  - flex-start
+  - flex-end
+  - center
+  - space-between
+  - space-around
+  - space-evenly
+
+  Exemplo:
+  display: flex;
+  justify-content: space-between;
+}
+
+align-items {
+  Alinha os itens no eixo cruzado (perpendicular ao principal).
+
+  Valores:
+  - stretch (padrão)
+  - flex-start
+  - flex-end
+  - center
+  - baseline
+
+  Exemplo:
+  display: flex;
+  align-items: center;
+}
+
+align-self {
+  Alinha um item específico individualmente.
+
+  Valores: mesmos do align-items.
+
+  Exemplo:
+  align-self: flex-end;
+}
+
+flex-wrap {
+  Controla se os itens devem quebrar linha.
+
+  Valores:
+  - nowrap (padrão)
+  - wrap
+  - wrap-reverse
+
+  Exemplo:
+  display: flex;
+  flex-wrap: wrap;
+}
+
+gap {
+  Define o espaço entre os itens.
+
+  Exemplo:
+  display: flex;
+  gap: 10px;
+}
+
+order {
+  Muda a ordem dos itens.
+
+  Exemplo:
+  .item {
+    order: 2;
+  }
+
+  Itens com menor valor aparecem primeiro.
+}
+
+flex-grow {
+  Permite que o item cresça se houver espaço.
+
+  Exemplo:
+  .item {
+    flex-grow: 1;
+  }
+
+  Cresce proporcionalmente aos outros itens com grow.
+}
+
+flex-shrink {
+  Permite que o item encolha se necessário.
+
+  Exemplo:
+  .item {
+    flex-shrink: 0;
+  }
+
+  Com shrink 0, o item não encolhe.
+}
+
+flex-basis {
+  Define o tamanho inicial do item.
+
+  Exemplo:
+  .item {
+    flex-basis: 200px;
+  }
+
+  Tamanho base de 200px.
+}
+
+flex {
+  Abreviação de grow, shrink e basis.
+
+  Exemplo:
+  .item {
+    flex: 1 0 100px;
+  }
+
+  Cresce, não encolhe, começa com 100px.
+}
+
+align-content {
+  Alinha múltiplas linhas de itens.
+
+  Exemplo:
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+	}
+	
+}

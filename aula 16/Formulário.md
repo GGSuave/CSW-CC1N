@@ -1,0 +1,1 @@
+São elementos fundamentais em páginas. Eles permitem o envio de dados para o site. Na maior parte do tempo, os dados são enviados para o servidor web, mas a página também pode interceptar para usá-los por conta própria.

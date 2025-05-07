@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./style/style.css" />
+		<title>Aula 16 - Formulário</title>
+	</head>
+	<body>
+		<main>
+			<h1>Formulário</h1>
+			<form action="">
+				<section class="formulario-section">
+					<div class="padrao-class-div">
+						<div class="cabecalho">
+							<h2>Dados Pessoais</h2>
+						</div>
+						<div class="padrao-class-div-input">
+							<label for="nome" class="required"
+								>Nome</label
+							>
+							<input
+								type="text"
+								name="nome"
+								id="nome"
+								required
+								class="padrao-input"
+							/>
+						</div>
+						<div class="padrao-class-div-input">
+							<label for="idade" class="required"
+								>Idade</label
+							>
+							<input
+								type="number"
+								name="idade"
+								id="idade"
+								min="18"
+								required
+								class="padrao-input"
+							/>
+						</div>
+						<div class="padrao-class-div-input">
+							<label for="email" class="required"
+								>E-mail (patter)</label
+							>
+							<input
+								class="padrao-input"
+								type="email"
+								name="email"
+								id="email"
+								required
+							/>
+						</div>
+						<div class="padrao-class-div-input">
+							<label for="color"
+								>Selecione uma cor</label
+							>
+							<input
+								type="color"
+								name="color"
+								id="color"
+							/>
+						</div>
+						<div class="padrao-class-div-input">
+							<label for="date" class="required"
+								>Data e Hora</label
+							>
+							<input
+								type="datetime-local"
+								name="date"
+								id="date"
+								required
+								class="padrao-input"
+							/>
+						</div>
+						<div class="padrao-class-div-input">
+							<label for="arquivo" class="required"
+								>Upload de Arquivo</label
+							>
+							<input
+								type="file"
+								name="arquivo"
+								id="arquivo"
+								required
+							/>
+						</div>
+					</div>
+					<div class="flex-col">
+						<div class="padrao-class-div">
+							<div class="cabecalho">
+								<h2>Login</h2>
+							</div>
+							<div class="padrao-class-div-input">
+								<label
+									for="email"
+									class="required"
+									>E-mail</label
+								>
+								<input
+									type="email"
+									name="email"
+									id="email"
+									required
+									class="padrao-input"
+								/>
+							</div>
+							<div class="padrao-class-div-input">
+								<label
+									for="senha"
+									class="required"
+									>Senha</label
+								>
+								<input
+									type="password"
+									name="senha"
+									id="senha"
+									required
+									class="padrao-input"
+								/>
+							</div>
+						</div>
+						<div class="flex div-opcoes">
+							<div class="padrao-class-div">
+								<div class="opcoes">
+									<input
+										type="checkbox"
+										name="teste1"
+										id="teste1"
+									/>
+									<label for="teste1"
+										>Opção 1</label
+									>
+								</div>
+								<div class="opcoes">
+									<input
+										type="checkbox"
+										name="teste2"
+										id="teste2"
+									/>
+									<label for="teste2"
+										>Opção 2</label
+									>
+								</div>
+								<div class="opcoes">
+									<input
+										type="checkbox"
+										name="teste3"
+										id="teste3"
+									/>
+									<label for="teste3"
+										>Opção 3</label
+									>
+								</div>
+							</div>
+							<div class="padrao-class-div">
+								<div class="opcoes">
+									<label for="opcao1"
+										>Opção 1</label
+									>
+									<input
+										type="radio"
+										name="radio"
+										id="opcao1"
+										value="opcao1"
+									/>
+								</div>
+								<div class="opcoes">
+									<label for="opcao2"
+										>Opção 2</label
+									>
+									<input
+										type="radio"
+										name="radio"
+										id="opcao2"
+										value="opcao2"
+									/>
+								</div>
+								<div class="opcoes">
+									<label for="opcao3"
+										>Opção 2</label
+									>
+									<input
+										type="radio"
+										name="radio"
+										id="opcao3"
+										value="opcao3"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="flex-col">
+						<div class="padrao-class-div">
+							<label
+								for="comentario"
+								id="label-comentario"
+								>Deixe um comentário</label
+							>
+							<textarea
+								name=""
+								id=""
+								cols="50"
+								rows="5"
+							></textarea>
+						</div>
+
+						<div class="padrao-class-div">
+							<div class="padrao-class-div-input">
+								<label
+									for="select"
+									class="required"
+									>Esporte Favorito</label
+								>
+								<select
+									name="select"
+									id="select"
+									class="padrao-input"
+								>
+									<option value="futebol">
+										Futebol
+									</option>
+									<option value="volei">
+										Vôlei
+									</option>
+									<option value="futsal">
+										Futsal
+									</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="formulario-botoes">
+					<button type="submit">Enviar</button>
+					<button type="reset">Limpar</button>
+				</section>
+			</form>
+		</main>
+	</body>
+</html>

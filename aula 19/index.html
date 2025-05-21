@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<label for="idade">Idade</label>
+		<input
+			type="number"
+			id="idade"
+			name="idade"
+			min="1"
+			max="100"
+			style="width: 75%; padding: 8px"
+		/>
+		<button onclick="identificar()">Identificar</button>
+		<div id="mostrar"></div>
+		<script>
+			function identificar() {
+				let idade = document.getElementById("idade").value;
+
+				if (idade > 0 && idade < 11) return mostrar("Criança");
+
+				if (idade > 10 && idade < 16)
+					return mostrar("Adolecente");
+
+				if (idade > 15 && idade < 30) return mostrar("Jovem");
+
+				if (idade > 29 && idade < 60) return mostrar("Adulto");
+
+				if (idade > 59) return mostrar("Idoso");
+			}
+
+			function mostrar(texto) {
+				document.getElementById("mostrar").innerHTML = texto;
+			}
+		</script>
+	</body>
+</html>
